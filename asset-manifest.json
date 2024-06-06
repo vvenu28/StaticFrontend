@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/StaticFrontend/static/css/main.44ce107d.css",
-    "main.js": "/StaticFrontend/static/js/main.74171eb2.js",
-    "static/js/592.bf6ca574.chunk.js": "/StaticFrontend/static/js/592.bf6ca574.chunk.js",
-    "static/media/servicesBg.png": "/StaticFrontend/static/media/servicesBg.90c0a955a861b55df40d.png",
-    "static/media/aboutusBg.png": "/StaticFrontend/static/media/aboutusBg.1e8af50679d792c28636.png",
-    "static/media/homeBg.png": "/StaticFrontend/static/media/homeBg.0036a54e06c3550ae5af.png",
-    "static/media/whyplanekrafty.JPG": "/StaticFrontend/static/media/whyplanekrafty.f20a9f6a4277a2db0927.JPG",
-    "static/media/footer-logo.png": "/StaticFrontend/static/media/footer-logo.60556419732ec54a8abe.png",
-    "static/media/logo.jpg": "/StaticFrontend/static/media/logo.e11864d20322104da7f7.jpg",
-    "index.html": "/StaticFrontend/index.html",
-    "main.44ce107d.css.map": "/StaticFrontend/static/css/main.44ce107d.css.map",
-    "main.74171eb2.js.map": "/StaticFrontend/static/js/main.74171eb2.js.map",
-    "592.bf6ca574.chunk.js.map": "/StaticFrontend/static/js/592.bf6ca574.chunk.js.map"
+    "main.css": "/LandingPage/static/css/main.e1a19ca1.css",
+    "main.js": "/LandingPage/static/js/main.177a7d35.js",
+    "static/js/592.bf6ca574.chunk.js": "/LandingPage/static/js/592.bf6ca574.chunk.js",
+    "static/media/servicesBg.png": "/LandingPage/static/media/servicesBg.90c0a955a861b55df40d.png",
+    "static/media/aboutusBg.png": "/LandingPage/static/media/aboutusBg.1e8af50679d792c28636.png",
+    "static/media/homeBg.png": "/LandingPage/static/media/homeBg.0036a54e06c3550ae5af.png",
+    "static/media/whyplanekrafty.JPG": "/LandingPage/static/media/whyplanekrafty.f20a9f6a4277a2db0927.JPG",
+    "static/media/footer-logo.png": "/LandingPage/static/media/footer-logo.60556419732ec54a8abe.png",
+    "static/media/logo.jpg": "/LandingPage/static/media/logo.e11864d20322104da7f7.jpg",
+    "index.html": "/LandingPage/index.html",
+    "main.e1a19ca1.css.map": "/LandingPage/static/css/main.e1a19ca1.css.map",
+    "main.177a7d35.js.map": "/LandingPage/static/js/main.177a7d35.js.map",
+    "592.bf6ca574.chunk.js.map": "/LandingPage/static/js/592.bf6ca574.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44ce107d.css",
-    "static/js/main.74171eb2.js"
+    "static/css/main.e1a19ca1.css",
+    "static/js/main.177a7d35.js"
   ]
 }
