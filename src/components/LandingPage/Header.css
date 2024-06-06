@@ -1,0 +1,213 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo img {
+  height: 30px;
+  padding-left: 20px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 10px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.btn-login {
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.body {
+  text-align: center;
+}
+
+.hero {
+  position: relative;
+  color: #fff;
+}
+
+.hero,
+.services-title,
+.aboutus-title {
+  background-image: url("../../assets/homeBg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.services-title {
+    height: 50vh;
+    background-image: url("../../assets/servicesBg.png");
+}
+
+.aboutus-title {
+  height: 50vh;
+  background-image: url("../../assets/aboutusBg.png");
+}
+
+.hero h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #333c45; */
+  font-size: 5em;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.content {
+  /* display: flex;
+  justify-content: space-around; */
+  padding: 20px;
+  background-color: #333c45;
+  color: #fff;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-text {
+  text-align: left;
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+.contents .column {
+  width: 20%;
+  text-align: justify;
+}
+
+.contents .column h3 {
+  text-align: left;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.why-planekrafty {
+  background-color: #a7b4b7;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.why-planekrafty .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.why-planekrafty .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.why-planekrafty .text {
+  flex: 1;
+  padding: 20px;
+  text-align: justify;
+  color: #333c45;
+}
+
+.why-planekrafty .text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: none;
+}
+
+.why-planekrafty .text p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.why-planekrafty .learn-more {
+  background-color: #333c45;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.why-planekrafty .image {
+  flex: 1;
+  padding: 20px;
+}
+
+.why-planekrafty .image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.aboutus-data {
+  width: 80%;
+  color: #333c45;
+}
+
+.aboutus-data h3 {
+  background: none;
+}
+
+.aboutus-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  background-color: #333c45;
+}
+
+.footer .footer-content {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  gap: 3em;
+}
+
+.footer-content .footer-desc a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-content .image img {
+  height: 100px;
+}

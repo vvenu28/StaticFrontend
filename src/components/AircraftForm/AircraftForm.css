@@ -1,0 +1,231 @@
+/* AircraftForm.css */
+
+.aircraft-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aircraft-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .aircraft-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aircraft-form label {
+    margin-bottom: 10px;
+  }
+  
+  .aircraft-form input[type='text'],
+  .aircraft-form input[type='date'],
+  .aircraft-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .aircraft-form input[type='radio'] {
+    margin-right: 5px;
+  }
+
+  .engine-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .engine-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .engine-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .engine-form label {
+    margin-bottom: 10px;
+  }
+  
+  .engine-form input[type='text'],
+  .engine-form input[type='date'],
+  .engine-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .engine-form input[type='radio'] {
+    margin-right: 5px;
+  }
+  
+  .foreign-registered {
+    margin-top: 20px;
+    background: #e3e3e3;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .foreign-registered p {
+    font-weight: bold;
+  }
+  
+  .foreign-registered label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-top: 20px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* AircraftForm.css */
+
+.aircraft-form-container {
+    /* ... */
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #0650f1;
+  }
+  
+ /* AircraftForm.css */
+
+.tab-button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px; /* This will add 10px space to the right of each button */
+  }
+  
+  .tab-button:last-child {
+    margin-right: 0; /* This ensures that the last button doesn't have extra space on the right */
+  }
+  
+  
+  .tab-button.active {
+    background-color: #ff6600;
+  }
+  
+  .tab-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Continue with the rest of your form styling */
+
+  .engine-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .engine-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .engine-form form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .engine-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .engine-form input[type="text"],
+  .engine-form input[type="number"],
+  .engine-form input[type="date"],
+  .engine-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .engine-form .matches-airframe,
+  .engine-form .foreign-registered {
+    margin-top: 20px;
+  }
+  
+  .engine-form .matches-airframe label,
+  .engine-form .foreign-registered label {
+    margin-bottom: 10px;
+  }
+  
+  .engine-form .matches-airframe p,
+  .engine-form .foreign-registered p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .engine-form .radio-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .engine-form .radio-group label {
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 0;
+  }
+  
+  .engine-form .radio-group input[type="radio"] {
+    accent-color: #007bff;
+  }
+  
+  .engine-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .engine-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  

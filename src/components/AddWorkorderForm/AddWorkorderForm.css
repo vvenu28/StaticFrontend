@@ -1,0 +1,67 @@
+/* AddPdfForm.css */
+.add-pdf-form {
+    max-width: 600px; /* or any other max-width you prefer */
+    margin: 50px auto; /* This centers the form in the middle of the screen */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow around the form */
+    background-color: rgb(255, 255, 255); /* Optional: sets a white background for the form */
+  }
+  
+  .add-pdf-form .form-group {
+    margin-bottom: 1px; /* This increases the space between form elements */
+    display: flex;
+    flex-direction: column; /* Stacks the label and input vertically */
+  }
+  
+  .add-pdf-form .form-group label {
+    margin-bottom: 0.1px; /* Adds a little space between the label and the input */
+  }
+ 
+  .add-pdf-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-pdf-form input[type="number"],
+  .add-pdf-form input[type="date"],
+  .add-pdf-form select,
+  .add-pdf-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px; /* If you want some space below the input */
+  }
+  
+  .add-pdf-form .actions {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    flex-direction: row
+  }
+  
+  .add-pdf-form .submit-btn,
+  .add-pdf-form .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-pdf-form .submit-btn,
+  .add-pdf-form .cancel-btn {
+    flex-grow: 1;
+    margin: 0 5px; /* Adjust the margin to your liking */
+}
+
+  .add-pdf-form .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .add-pdf-form .cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  

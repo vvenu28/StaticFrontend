@@ -1,0 +1,230 @@
+.dashboard-container {
+  /* Ensure the container takes full width */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust based on your layout */
+  background-color: #f2f2f2; /* Just an example; change as needed */
+  border-bottom: 1px solid #ccc; /* Just an example; change as needed */
+}
+
+.profile-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Example button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust as needed */
+}
+  
+  .engine-info-section, .documents-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  .menu-content {
+    position: absolute;
+    right: 20px; /* Adjust based on layout */
+    top: 60px; /* Adjust based on the height of your header */
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .menu-content div {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .menu-content div:hover {
+    background-color: #f2f2f2;
+  }
+  
+  
+  .engine-info-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: calc(25% - 10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .engine-info-card h2 {
+    margin-top: 0;
+  }
+
+  .aircraft-info-box, .document-box {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .document-box {
+    margin-bottom: 20px;
+  }
+  
+  .pdf-link {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .pdf-link:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Add additional styles as needed */
+
+  .document-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 20%; /* Adjust the width as necessary */
+    margin-left: auto; /* Keep this to push the box to the right */
+    margin-right: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .document-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .toggle-pdfs {
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .pdf-list {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .pdf-link {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .pdf-link:hover {
+    background-color: #e0e0e0;
+  }
+
+  .left-sidebar {
+    flex: 1; /* Adjust the flex ratio to control the size of the sidebar */
+    padding: 10px;
+  }
+  
+  .main-content {
+    flex: 3; /* Adjust the flex ratio to control the size of the main content area */
+    padding: 10px;
+  }
+  
+  /* Styles for the recent events and inspection requirements */
+ /* Styles for the recent events and inspection requirements */
+  .recent-events-box, .inspection-requirements-box {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 25%; /* Adjust the width as necessary */
+    margin-right: 75%;
+  }
+
+  .event, .requirement {
+    display: table-row;
+  }
+
+  .event div, .requirement div {
+    display: table-cell;
+    padding: 8px; /* Adjust padding as necessary */
+    border: 1px solid #ddd; /* Adds a border to each cell */
+    text-align: left;
+  }
+
+  /* Optional: Add a header row style if needed */
+  .event-header div, .requirement-header div {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+
+  h3 {
+    background-color: #f2f2f2; /* Adjust the color as necessary */
+    padding: 8px; /* Adjust padding as necessary */
+  }
+
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .top-section, .bottom-section {
+    /* Both top and bottom sections will be flex containers */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .left-section {
+    /* Align recent events and inspection req boxes in the left section */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .right-section {
+    /* This can be used to position content on the right if needed, otherwise can be left empty */
+    flex: 1;
+  }
+  
+  /* Add additional styles as needed */
+  
+  
+  
+  

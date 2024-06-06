@@ -1,0 +1,63 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light grey background for contrast */
+  }
+  
+  .register-title {
+    margin-bottom: 2rem; /* Space between title and form */
+    color: #333; /* Dark grey color for the title text */
+    text-align: center;
+  }
+  
+  .register-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Maximum width for the form */
+  }
+  
+  .register-form input,
+  .register-form button,
+  .register-form select,
+  .register-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem; /* Space between form elements */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-form button {
+    background-color: #28a745; /* Green color for the register button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem; /* Space above the button */
+  }
+  
+  .register-form .file-input-container {
+    border: 1px dashed #ccc; /* Dashed border for file input area */
+    background-color: #fafafa; /* Lighter background for file input area */
+    text-align: center;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem; /* Space below file input area */
+  }
+  
+  .register-form .file-input-container input {
+    margin: 0; /* Reset margin for file input */
+  }
+  
+  /* Add responsiveness to the form */
+  @media (max-width: 768px) {
+    .register-form {
+      width: 90%;
+    }
+  }
+  
