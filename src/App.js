@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Root URL displays LoginPage */}
+        <Route path="/StaticFrontend" element={<Home />} /> {/* Root URL displays LoginPage */}
         <Route path="/login" element={<LoginPage />} /> {/* Optional: Duplicate route for /login */}
         <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/register" element={<RegisterPage1 />} />
