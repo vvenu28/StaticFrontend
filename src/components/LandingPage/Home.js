@@ -1,17 +1,16 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import headerLogo from '../../assets/header-logo.png';
-import whyplanekrafty from '../../assets/whyplanekrafty.JPG';
-import footerLogo from '../../assets/footer-logo.png';
+import headerLogo from "../../assets/header-logo.png";
+import whyplanekrafty from "../../assets/whyplanekrafty.JPG";
+import footerLogo from "../../assets/footer-logo.png";
 import Footer from "./Footer";
 import Header from "./Header";
-
 
 const Home = () => {
   return (
     <>
-      <Header/>
+      <Header />
 
       <main className="body">
         <div className="hero">
@@ -100,6 +99,21 @@ const Home = () => {
                 critical maintenance tracking items.
               </p>
             </div>
+            <div className="column">
+              <h3>Aircraft operators/management companies</h3>
+              <p>
+                Do you struggle with keeping up with the influx of records and
+                being able to easily access them in more than their physical
+                condition? Does it drive you mad to dig through CAMP trying to
+                locate that 8110 or 337 you need? <br />
+                <br />
+                Are your staff stretch thin keeping up with daily operations and
+                wish you could have a conformity specialist to rely on? <br />
+                <br />
+                planeKrafty understands these issues and can help you solve
+                them.
+              </p>
+            </div>
           </div>
         </section>
         <section className="why-planekrafty">
@@ -124,16 +138,13 @@ const Home = () => {
               </div>
             </div>
             <div className="image">
-              <img
-                src={whyplanekrafty}
-                alt="Aircraft Maintenance"
-              />
+              <img src={whyplanekrafty} alt="Aircraft Maintenance" />
             </div>
           </div>
         </section>
       </main>
 
-      <Footer/>
+      <Footer />
     </>
   );
 };

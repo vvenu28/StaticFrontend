@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import headerLogo from "../../assets/header-logo.png";
 
 const Header = () => {
@@ -12,18 +12,41 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/LandingPage">Home</Link>
+            <NavLink
+              to="/LandingPage"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <NavLink
+              to="/services"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              Services
+            </NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              About
+            </NavLink>
           </li>
           <li>
-            <Link to="/Login" className="btn-login">
+            <NavLink
+              to="/pricing"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              Pricing
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/Login" className="btn-login">
               Login
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>

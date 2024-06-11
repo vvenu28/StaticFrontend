@@ -45,6 +45,18 @@ const Services = () => {
                 </button>
               </div>
             </div>
+            <div className="text">
+              <h3>Records Digitization</h3>
+              <p>
+                Having a digital set of records for easy search and review can
+                be a game changer for your maintenance. We will scan your
+                records and name all files easily cross reference to your newly
+                organized physical documents.
+              </p>
+              <div className="button">
+                <button className="learn-more">Records Digitization</button>
+              </div>
+            </div>
           </div>
         </section>
       </main>
